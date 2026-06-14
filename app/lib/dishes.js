@@ -29,7 +29,8 @@ export const dishes = [
       "Stone-baked pizza with tomato sauce, fresh mozzarella, basil, and a drizzle of olive oil.",
     imageUrl:
       "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=900&q=80",
-    modelUrl: "/models/pizza.glb",
+    modelUrl:
+      "https://sketchfab.com/models/4eaaa4e13530467a9e1541269d101655/embed",
     ingredients: [
       "Pizza dough",
       "Tomato sauce",
@@ -59,5 +60,20 @@ export const dishes = [
     ],
     allergens: ["Soy"],
     calories: 410,
+  },
+  {
+    id: "steak",
+    name: "Grilled Steak Platter",
+    price: 18.99,
+    category: "Mains",
+    description:
+      "A premium grilled steak platter with rich presentation, ideal for realistic AR food preview.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=80",
+    modelUrl:
+      "https://sketchfab.com/models/ee29f0fc621c452a9c72231bf991ab7a/embed",
+    ingredients: ["Steak", "Seasoning", "Herbs", "Sauce"],
+    allergens: [],
+    calories: 690,
   },
 ];
