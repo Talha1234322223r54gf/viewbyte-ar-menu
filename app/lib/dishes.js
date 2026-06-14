@@ -76,4 +76,34 @@ export const dishes = [
     allergens: [],
     calories: 690,
   },
+  {
+    id: "chicken",
+    name: "Roasted Chicken and Potatoes",
+    price: 16.99,
+    category: "Mains",
+    description:
+      "A realistic roasted chicken and potatoes dish preview for premium restaurant menu presentation.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=900&q=80",
+    modelUrl:
+      "https://sketchfab.com/models/46f428194e8845dda0aee626188275ea/embed",
+    ingredients: ["Roasted chicken", "Potatoes", "Herbs", "Salt", "Black pepper"],
+    allergens: [],
+    calories: 720,
+  },
+  {
+    id: "dessert",
+    name: "Chocolate Dessert",
+    price: 9.99,
+    category: "Desserts",
+    description:
+      "A rich chocolate dessert preview designed to showcase sweet dishes using interactive 3D visualization.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=80",
+    modelUrl:
+      "https://sketchfab.com/models/222b4fcfaeaa4155a1b6a34f20bbf883/embed",
+    ingredients: ["Chocolate", "Cream", "Sugar", "Cocoa"],
+    allergens: ["Milk"],
+    calories: 480,
+  },
 ];
